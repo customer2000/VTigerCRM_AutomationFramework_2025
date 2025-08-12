@@ -11,10 +11,10 @@ public class ProjectsPage {
 		PageFactory.initElements(driver, this);
 	}
 	
-//	@FindBy(xpath="//img[@title='Create Organization...']")
-//	private WebElement createOrgIcon;
-//
-//	public WebElement getCreateOrgIcon() {
-//		return createOrgIcon;
-//	}
+	@FindBy(xpath="//img[@title='Create Organization...']")
+	private WebElement createOrgIcon;
+
+	public WebElement getCreateOrgIcon() {
+		return createOrgIcon;
+	}
 }
