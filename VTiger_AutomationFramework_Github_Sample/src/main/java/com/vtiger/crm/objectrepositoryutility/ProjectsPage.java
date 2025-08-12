@@ -9,7 +9,7 @@ public class ProjectsPage {
 	public ProjectsPage(WebDriver driver)
 	{
 		PageFactory.initElements(driver, this);
-	}
+	}sample
 	
 //	@FindBy(xpath="//img[@title='Create Organization...']")
 //	private WebElement createOrgIcon;
