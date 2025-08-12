@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="4" parallel="tests" name="Suite">
+  <test name="TestRunner-1">
+    <classes>
+      <class name="com.vtiger.crm.contactstest.CreateContactTest"/>
+      <class name="com.vtiger.crm.contactstest.DeleteContactTest"/>
+    </classes>
+  </test> <!-- TestRunner -->
+  <test name="TestRunner-2">
+    <classes>
+      <class name="com.vtiger.crm.emailtest.ComposeEmailAndSaveTest"/>
+      <class name="com.vtiger.crm.emailtest.DeleteAnEmailTest"/>
+      <class name="com.vtiger.crm.emailtest.DeleteAllEmail"/>
+    </classes>
+  </test> <!-- TestRunner -->
+  <test name="TestRunner-3">
+    <classes>
+   	  <class name="com.vtiger.crm.orgtest.CreateOrganizationTest"/>
+      <class name="com.vtiger.crm.orgtest.CreateOrganizationWithIndustryTypeTest"/>
+      <class name="com.vtiger.crm.orgtest.CreateOrganizationWithPhoneTest"/>
+    </classes>
+  </test> <!-- TestRunner -->
+  <test name="TestRunner-4">
+    <classes>
+      <class name="com.vtiger.crm.productstest.AddProductTest"/>
+      <class name="com.vtiger.crm.productstest.EditProductTest"/>
+      <class name="com.vtiger.crm.productstest.DeleteAllProductsTest"/>
+    </classes>
+  </test> <!-- TestRunner -->
+</suite> <!-- Suite -->
